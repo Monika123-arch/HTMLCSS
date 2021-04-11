@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <tilte>Uses of HTML</tilte>
+        <style>
+            .headerContainer {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: rgba(228, 80, 80, 0.952);
+                font-weight: bold;
+                padding: 10px;
+            }
+
+            .footerContainer {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: lightgreen;
+                font-weight: bold;
+                padding: 10px;
+            }
+
+            .mainContainer {
+                display: flex;
+                flex-flow: row wrap;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .mainContentItem{
+                text-align:left;
+                background: #00b7ff;
+            }  
+
+            article {
+                padding: 10px;
+                margin: 10px;
+                background: rgb(0, 247, 255);
+            } 
+
+            .sideBarLeftItem{ background: gold;}
+            .sideBarRightItem{background: hotpink;}
+            .sideBarItem{flex: 1 0 0; border:0px solid green;}
+            .mainContentItem {flex: 3 0px;}
+            .mainContentItem{order: 1;}
+            .sideBarLeftItem{order: 2;}
+            .sideBarRightItem{order: 3;}
+
+        </style>
+    </head>
+    <body>
+        <header class = "headerContainer"><h1>Uses of HTML</h1></header>
+        <div class="mainContainer">
+            <section class="mainContentItem">
+                <article>
+                    <h2>1. Web pages development</h2>
+                    <p>
+                        HTML is heavily used for creating pages that are displayed on the world wide web. Every page contains a set of HTML tags including hyperlinks which are used for connecting to other pages. Every page that we witness, on the world wide web, is written using a version of HTML code.
+                    </p>
+                </article>
+                <article>
+                    <h2>2. Web document Creation</h2>
+                    <p>Document creation on the internet is dominated by HTML and its basic concept via tag and DOM i.e. document object model. HTML tags are inserted before and afterward or phrases to locate their format and location on the page. A web document consists of three sections: title, head, and body. Head includes the information to identify the document, including title and any other important keyword. A title can be seen on the browser’s bar and the body section is the main portion of the website visible to the viewer. All three segments are designed and created by the uses of HTML tags. Every section has its own specific set of tags, which are dedicatedly rendered keeping the head, title and body concepts in a loop.
+                    </p>
+                </article>
+                <article>
+                    <h2>3. Internet navigation</h2>
+                    <p>
+                        This is one of the most important uses of HTML which is revolutionary. This navigation is possible by utilizing the concept of Hypertext. It is basically a text which refers to other web pages or text and when user click on it, would navigate to referenced text or page. HTML is heavily used to embed the hyperlink within the web pages. A user can easily navigate within the web pages and between websites as well, which are located on different servers.
+                    </p>
+                </article>
+                <article>
+                    <h2>4. Cutting edge feature</h2>
+                    <p>
+                        HTML5 with its set of standards and API is being used to introduce some of the latest trends in website creation business. Like polyfill libraries, which are supported by old browsers equally well. Browser like Google Chrome is the perfect choice when it comes to implementing an HTML5 latest set of standards and APIs. There is a JavaScript library available called Modernizr, which can detect features that let the developer dynamically load polyfill libraries as required.
+                    </p>
+                </article>
+                <article>
+                    <h2>5. Responsive images on web pages</h2>
+                    <p>
+                        At the elementary level in applications of HTML, queries can be set to utilize the images, which are responsive in nature. With the srcset attribute of img element in HTML, and combining it with picture elements, a developer can fully control how the user will render an image. Now different types of an image with size variation can be loaded by using the img element. Rules can be easily set with the picture element, we can declare img element with default source and then for every case, a source can be provided.
+                    </p>
+                </article>                
+            </section>
+            <sideBar class="sideBarItem sideBarLeftItem"><div class="center">
+               <h2>Introduction To HTML</h2>
+               <h2>What Is HTML</h2>
+               <h2>HTML Stands For</h2>
+               <h2>Advantages Of HTML</h2>
+               <h2>Applications Of HTML</h2>
+            </div>
+            </sideBar>
+            <sideBar class="sideBarItem sideBarRightItem"><div class="center">
+                <h2>Home</h2>
+                <h2>Software Development </h2>
+                <h2>Software Development Tutorials</h2>
+                <h2> HTML Tutorial</h2>
+             </div>
+            </sideBar>
+        </div>        
+        <footer class = "footerContainer"><p>To Know More, visit <a href="https://www.bridgelabz.com">Bridgelabz</a></p></footer>
+    </body>
+</html>
